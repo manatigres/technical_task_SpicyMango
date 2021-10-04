@@ -3,7 +3,7 @@
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
-$ git clone https://github.com/manatigres/Technical_task.git
+$ git clone https://github.com/manatigres/technical_task_SpicyMango.git
 $ cd technical_task
 $ npm install
 $ npm start
