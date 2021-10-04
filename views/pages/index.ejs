@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.css" integrity="sha512-MpdEaY2YQ3EokN6lCD6bnWMl5Gwk7RjBbpKLovlrH6X+DRokrPRAF3zQJl1hZUiLXfo2e9MrOt+udOnHCAmi5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/themes/bootstrap.css" integrity="sha512-eSjlj23qCNm7hmEQiXiJGCxLVT3weZ47TdIESCNFm8LwNDBtmRAbdDXwkKLLA5HPQIR1yl9JYO0wQG6gIPJoRQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <script src="client.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.js" integrity="sha512-eOUPKZXJTfgptSYQqVilRmxUNYm0XVHwcRHD4mdtCLWf/fC9XWe98IT8H1xzBkLL4Mo9GL0xWMSJtgS5te9rQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <h1>Technical task</h1>
+    <div>
+        <h3>Insert information:</h3>
+        <form id="form">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required><br>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required><br>
+
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender" required>
+                <option hidden disabled selected value> </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select><br>
+
+            <label for="birthday">Day of birth:</label>
+            <input type="date" id="birthday" name="birthday" required><br>
+
+            <button type="submit">Enter</button>
+
+          </form>  
+    </div>
+
+    <hr>
+
+    <div id="content">
+
+        <h2>Dataset</h2>
+
+        <div id="all">
+            <table >
+                <tr id="titles"></tr>
+                <tbody id="table">
+                    
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
